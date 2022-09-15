@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+    <link href="../style.css" rel="stylesheet">
+    <title>Cart</title>
+</head>
+
+<body class="cart-template">
+    <header>
+        <!-- ====== top menu ===== -->
+        <div class="top-menu-bg">
+
+        </div>
+        <!-- ========= menu ========== -->
+        <nav class="main-menu">
+            <a href="#" class="nav-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="header-menu">
+
+                <div class="header-logo card-logo">
+                    <a href="../"><img src="../images/CC_Omnisend.png" alt="logo"></a>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#">Book One</a></li>
+                        <li><a href="#">Book Two</a></li>
+                        <li><a href="#">Book Three</a></li>
+
+                    </ul>
+                </div>
+                <div class="cart-menu-text">
+                    <h2>Card</h2>
+                </div>
+                <div class="cities">
+                    <form>
+                        <select>
+                                <option>USD</option>
+                                <option>USD</option>
+                                <option>USD</option>
+                            </select>
+                    </form>
+                    <a href="#"><img src="../images/Group 54.png"></a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <section class="banner inner-banner cart-banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-heading card-banner-heading">
+                    <h1>Cart</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blogs -->
+    <section class="cart">
+        <div class="container">
+            <div class="cart-content">
+                <!-- Desktop Layout of Cart -->
+                <div class="cart-desktop">
+                    <!-- Cart Nav -->
+                    <div class="cart-nav">
+                        <div class="row justify-between">
+                            <div class="col-md-7">
+                                <div class="cart-nav-col">
+                                    <h3>Items</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="cart-nav-col row justify-between">
+                                    <div class="price">
+                                        <h3>Price</h3>
+                                    </div>
+                                    <div class="quantity">
+                                        <h3>Quantity</h3>
+                                    </div>
+                                    <div class="total">
+                                        <h3>Total</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cart Items -->
+                    <div class="cart-items-container cart-inner-container">
+                        <div class="item-title">
+                            <h2>The Missing Moon</h2>
+                            <p>Personalized for Josh and Neel</p>
+                        </div>
+                        <div class="item-row row justify-between">
+                            <div class="col-md-7">
+                                <div class="cart-item item1">
+                                    <span>
+                                        <img src="../images/cart-item.png" alt="">
+                                    </span>
+                                    <span>
+                                        <h2><span>The Missing Moon Book</span><span class="mission-x">x1</span></h2>
+                                        <div class="card-btn-row">
+                                            <span class="cover">Hardcovre</span>
+                                            <span class="cover-flag">
+                                                <img src="../images/flag-.png">
+                                                <label>EN</label>
+                                            </span>
+                                            <span class="pencil-icon">
+                                                <a href="#">
+                                                    <img src="../images/edit.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="edit-bok-text">Edit Book</a>
+                                        <div class="cart-price">
+                                            <p>$ 49.00</p>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="cart-options row justify-between">
+                                    <div class="price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="total">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-row row justify-between align-center">
+                            <div class="col-md-7">
+                                <div class="cart-item item2">
+                                    <span>
+                                    <img src="../images/cart-item.png" alt="">
+                                 </span>
+                                    <span>
+                                        <h2><span>The Missing Mug</span><span class="mission-x">x4</span></h2>
+                                    <div class="cart-price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                 </span>
+                                   
+                                </div>
+                               
+                            </div>
+                            <div class="col-md-4">
+                                <div class="cart-options row justify-between">
+                                    <div class="price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="total">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="myBtn" class="update-cart update-cart-space">Update Quantity</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content-2">
+                                    <div class="modal-header">
+                                        <span class="close">&times;</span>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="incremnet-pop-text">
+                                            <h1>The Missing Moon</h1>
+                                            <p>Add more personalized gifts for <span>Josh</span> and <span>Neel</span></p>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon Book</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                              
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="decrement()" class="minus-btn">-</button>
+                                                <input id=demoInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="increment()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon Mug</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                               
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="seconddecrement()" class="minus-btn">-</button>
+                                                <input id=secondInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="secondincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon T-shirt</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                                
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="thirddecrement()" class="minus-btn">-</button>
+                                                <input id=thirdInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="thirdincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="#" class="modal-card-btn">Update Card</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    
+                    <!-- Cart Items -->
+                    <div class="cart-items-container">
+                        <div class="item-title">
+                            <h2>The Missing Moon</h2>
+                            <p>Personalized for Josh and Neel</p>
+                        </div>
+                        <div class="item-row row justify-between">
+                            <div class="col-md-7">
+                                <div class="cart-item item1">
+                                    <span>
+                                        <img src="../images/cart-item.png" alt="">
+                                    </span>
+                                    <span>
+                                        <h2><span>The Missing Moon Book</span><span class="mission-x">x1</span></h2>
+                                        <div class="card-btn-row">
+                                            <span class="cover">Hardcovre</span>
+                                            <span class="cover-flag">
+                                                <img src="../images/flag-.png">
+                                                <label>EN</label>
+                                            </span>
+                                            <span class="pencil-icon">
+                                                <a href="#">
+                                                    <img src="../images/edit.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    <a href="#" class="edit-bok-text">Edit Book</a>
+                                    <div class="cart-price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="cart-options row justify-between">
+                                    <div class="price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="total">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-row row justify-between align-center">
+                            <div class="col-md-7">
+                                <div class="cart-item item2">
+                                    <span>
+                                    <img src="../images/cart-item.png" alt="">
+                                </span>
+                                    <span>
+                                        <h2><span>The Missing Mug</span><span class="mission-x">x4</span></h2>
+                                    <div class="cart-price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="cart-options row justify-between">
+                                    <div class="price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="total">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="secondBtn" class="update-cart">Update Quantity</button>
+
+                        <!-- The Modal -->
+                        <div id="secondModal" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content-2">
+                                    <div class="modal-header">
+                                        <span class="secondclose">&times;</span>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="incremnet-pop-text">
+                                            <h1>The Missing Moon</h1>
+                                            <p>Add more personalized gifts for <span>Josh</span> and <span>Neel</span></p>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon Book</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                              
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="fourthdecrement()" class="minus-btn">-</button>
+                                                <input id=fourthInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="fourthincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon Mug</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                               
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="fifthdecrement()" class="minus-btn">-</button>
+                                                <input id=fifthInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="fifthincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon T-shirt</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                               
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="sixdecrement()" class="minus-btn">-</button>
+                                                <input id=sixInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="sixincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="#" class="modal-card-btn">Update Card</a>
+                                        </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cart Items -->
+                    <div class="cart-items-container">
+                        <div class="item-title">
+                            <h2>The Missing Moon</h2>
+                            <p>Personalized for Josh and Neel</p>
+                        </div>
+                        <div class="item-row row justify-between">
+                            <div class="col-md-7">
+                                <div class="cart-item item1">
+                                    <span>
+                                        <img src="../images/cart-item.png" alt="">
+                                    </span>
+                                    <span>
+                                        <h2><span>The Missing Mug</span><span class="mission-x">x4</span></h2>
+                                        <div class="card-btn-row">
+                                            <span class="cover">Hardcovre</span>
+                                            <span class="cover-flag">
+                                                <img src="../images/flag-.png">
+                                                <label>EN</label>
+                                            </span>
+                                            <span class="pencil-icon">
+                                                <a href="#">
+                                                    <img src="../images/edit.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    <a href="#" class="edit-bok-text">Edit Book</a>
+                                    <div class="cart-price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="cart-options row justify-between">
+                                    <div class="price">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="total">
+                                        <p>$ 49.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="thirdBtn" class="update-cart">Update Quantity</button>
+
+                        <!-- The Modal -->
+                        <div id="thirdModal" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content-2">
+                                    <div class="modal-header">
+                                        <span class="thirdclose">&times;</span>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="incremnet-pop-text">
+                                            <h1>The Missing Book</h1>
+                                            <p>Add more personalized gifts for <span>Josh</span> and <span>Neel</span></p>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon Book</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                                
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="sevendecrement()" class="minus-btn">-</button>
+                                                <input id=sevenInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="sevenincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon Mug</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                               
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="eightdecrement()" class="minus-btn">-</button>
+                                                <input id=eightInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="eightincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-row">
+                                            <div class="modal-col-1">
+                                                <span><img src="../images/cart-item.png"></span>
+                                                <span>
+                                                    <h6>The Missing Moon T-shirt</h6>
+                                                    <p class="modal-price">$ 49.00</p>
+                                                </span>
+                                              
+                    
+                                            </div>
+                                            <div class="modal-col-2">
+                                                <button onclick="ninthdecrement()" class="minus-btn">-</button>
+                                                <input id=ninthInput type=number min=0 max=10 placeholder="0">
+                                                <button onclick="ninthincrement()" class="plus-btn">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="#" class="modal-card-btn">Update Card</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="subtotal row">
+                        <p>Subtotal</p>
+                        <span>$ 99.00</span>
+                    </div>
+                    <div class="checkout-btn">
+                        <a href="#" class="white-btn">Continue Shopping</a>
+                        <a href="#" class="blue-btn">Proceed to checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../min.js"></script>
+    <!-- pop up -->
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
+    <script>
+        var modal = document.getElementById("secondModal");
+        var btn = document.getElementById("secondBtn");
+        var span = document.getElementsByClassName("secondclose")[0];
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
+    <script>
+        var modal = document.getElementById("thirdModal");
+        var btn = document.getElementById("thirdBtn");
+        var span = document.getElementsByClassName("thirdclose")[0];
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
+   
+    
+    <!-- pop up increment and decrement  -->
+    <script>
+        // first modal values
+        function increment() {
+            document.getElementById('demoInput').stepUp();
+        }
+        function decrement() {
+            document.getElementById('demoInput').stepDown();
+        }
+        function secondincrement() {
+            document.getElementById('secondInput').stepUp();
+        }
+        function seconddecrement() {
+            document.getElementById('secondInput').stepDown();
+        }
+        function thirdincrement() {
+            document.getElementById('thirdInput').stepUp();
+        }
+        function thirddecrement() {
+            document.getElementById('thirdInput').stepDown();
+        }
+
+        // 2nd modal values
+        function fourthincrement() {
+            document.getElementById('fourthInput').stepUp();
+        }
+        function fourthdecrement() {
+            document.getElementById('fourthInput').stepDown();
+        }
+        function fifthincrement() {
+            document.getElementById('fifthInput').stepUp();
+        }
+        function fifthdecrement() {
+            document.getElementById('fifthInput').stepDown();
+        }
+        function sixincrement() {
+            document.getElementById('sixInput').stepUp();
+        }
+        function sixdecrement() {
+            document.getElementById('sixInput').stepDown();
+        }
+        // 3rd modal box
+        function sevenincrement() {
+            document.getElementById('sevenInput').stepUp();
+        }
+        function sevendecrement() {
+            document.getElementById('sevenInput').stepDown();
+        }
+        function eightincrement() {
+            document.getElementById('eightInput').stepUp();
+        }
+        function eightdecrement() {
+            document.getElementById('eightInput').stepDown();
+        }
+        function ninthincrement() {
+            document.getElementById('ninthInput').stepUp();
+        }
+        function ninthdecrement() {
+            document.getElementById('ninthInput').stepDown();
+        }
+    </script>
+</body>
+
+</html>
